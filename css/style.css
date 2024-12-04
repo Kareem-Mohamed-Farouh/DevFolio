@@ -1,0 +1,664 @@
+nav {
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+#about {
+    background-color: rgb(245, 245, 245);
+}
+
+.main-bg {
+    --bg-mainn: rgb(13, 110, 253);
+}
+
+.max-w-600 {
+    max-width: 800px;
+
+}
+
+.heder-caption p {
+    font-size: 4.5rem;
+    font-weight: 600;
+}
+
+
+
+
+/*--------------- nav bar------------- */
+
+
+.navbar .active {
+    color: rgb(24, 24, 255) !important;
+    width: 80%;
+
+}
+
+
+li>.nav-link::before{
+content: "";
+    position: absolute;
+    width: 0%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 55, 255, 0.861);
+    transition: .3s;
+}
+
+.nav-link::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0, 55, 255);
+    transition: .3s;
+}
+
+
+.dropdown-menu {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 4px;
+    bottom: 15px;
+    background-color: red;
+    transition: .3s;
+    right: 0px;
+}
+
+
+.nav-link:hover::after{
+    width: 100%;
+}
+.navbar ul li a:hover .navbar ul li a::before {
+
+        transform: translateX(100%);
+}
+
+ .navbar ul li {
+ position: relative;
+    overflow: hidden;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.9);
+
+}
+/*--------------end- nav bar------------- */
+/*--------------start- home------------- */
+
+
+
+
+
+
+.txt-animation {
+    height: 1px;
+}
+
+
+.txt-animation::after {
+    content: "";
+    animation: txt-animation 10s infinite;
+
+}
+
+@keyframes txt-animation {
+    0% {
+        content: "D";
+    }
+
+    1.5% {
+        content: "De|";
+    }
+
+    3% {
+        content: "Des";
+    }
+
+    4.5% {
+        content: "Desi|";
+    }
+
+    6% {
+        content: "Desin";
+    }
+
+    7.5% {
+        content: "Desing|";
+    }
+
+    9% {
+        content: "Desinge";
+    }
+
+    10.5% {
+        content: "Desinger|";
+    }
+
+    12% {
+        content: "Desinge";
+    }
+
+    13.5% {
+        content: "Desing|";
+    }
+
+    15% {
+        content: "Desin";
+    }
+
+    16.5% {
+        content: "Desi|";
+    }
+
+    18% {
+        content: "Des";
+    }
+
+    18.5% {
+        content: "De|";
+    }
+
+    20% {
+        content: "D";
+    }
+
+    21.5% {
+        content: "";
+    }
+
+    23% {
+        content: "F";
+    }
+
+    24.5% {
+        content: "Fr";
+    }
+
+    26.5% {
+        content: "Fre|";
+    }
+
+    28% {
+        content: "Free";
+    }
+
+    29.5% {
+        content: "Freel|";
+    }
+
+    31% {
+        content: "Freela";
+    }
+
+    32.5% {
+        content: "Freelan|";
+    }
+
+    34% {
+        content: "Freelanc";
+    }
+
+    35.5% {
+        content: "Freelance|";
+    }
+
+    37.5% {
+        content: "Freelancer|";
+    }
+
+    39% {
+        content: "Freelancer|";
+    }
+
+    40.5% {
+        content: "Freelancer|";
+    }
+
+    42% {
+        content: "Freelancer|";
+    }
+
+    43.5% {
+        content: "Freelancer|";
+    }
+
+    45% {
+        content: "Freelance|";
+    }
+
+    46.5% {
+        content: "Freelanc";
+    }
+
+    48% {
+        content: "Freelan|";
+    }
+
+    49.5% {
+        content: "Freela";
+    }
+
+    51.5% {
+        content: "Freel|";
+    }
+
+    53% {
+        content: "Free";
+    }
+
+    54.5% {
+        content: "Fre|";
+    }
+
+    56% {
+        content: "Fr";
+    }
+
+    57.5% {
+        content: "F";
+    }
+
+    59% {
+        content: "";
+    }
+
+    60.5% {
+        content: "P";
+    }
+
+    62% {
+        content: "Ph|";
+    }
+
+    63.5% {
+        content: "Pho";
+    }
+
+    65% {
+        content: "Phot|";
+    }
+
+    66.5% {
+        content: "Photo";
+    }
+
+    68% {
+        content: "Photogr|";
+    }
+
+    69.5% {
+        content: "Photogra";
+    }
+
+    71% {
+        content: "Photograp|";
+    }
+
+    72.5% {
+        content: "Photograph|";
+    }
+
+    74.5% {
+        content: "Photographe";
+    }
+
+    76% {
+        content: "Photographer|";
+    }
+
+    77% {
+        content: "Photographer|";
+    }
+
+    78% {
+        content: "Photographer|";
+    }
+
+    79% {
+        content: "Photographer|";
+    }
+
+    80% {
+        content: "Photographer|";
+    }
+
+    81% {
+        content: "Photographer|";
+    }
+
+    82% {
+        content: "Photographer|";
+    }
+
+    83% {
+        content: "Photographer|";
+    }
+
+    84.5% {
+        content: "Photographe|";
+    }
+
+    86% {
+        content: "Photograph";
+    }
+
+    87.5% {
+        content: "Photograp|";
+    }
+
+    89% {
+        content: "Photogra";
+    }
+
+    90.5% {
+        content: "Photogr|";
+    }
+
+    92% {
+        content: "Photog";
+    }
+
+    93.5% {
+        content: "Photo|";
+    }
+
+    95% {
+        content: "Phot";
+    }
+
+    96.5% {
+        content: "Pho|";
+    }
+
+    98% {
+        content: "Ph|";
+    }
+
+    99% {
+        content: "P|";
+    }
+
+    100% {
+        content: "";
+    }
+}
+
+
+#home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.navbar-icon {
+    color: #fff;
+}
+
+
+
+.cover h1 {
+    font-size: 4.5rem;
+    font-weight: 600;
+}
+
+
+/*--------------end- home------------- */
+
+
+/*--------start-- about me ----------*/
+.progress,
+.progress-stacked {
+    --bs-progress-height: 0.7rem;
+    --bs-progress-font-size: 0.75rem;
+
+}
+
+.title {
+    position: relative;
+}
+
+.title-left::before {
+    content: "";
+    width: 15%;
+    height: 3px;
+    background-color: var(--bg-mainn);
+    position: absolute;
+    bottom: 0;
+}
+
+/*------- END-about me ----------*/
+/*------- START-SERVICES ----------*/
+
+.title-a {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.line-title {
+    width: 40px;
+    height: 5px;
+    background-color: var(--bg-mainn);
+
+}
+
+
+.shape-s-c {
+    width: 100px;
+    height: 100px;
+    display: block;
+    border-radius: 50%;
+    border: solid var(--bg-mainn) 10px;
+    transition: all 0.5s;
+}
+
+.sevices-card:hover .shape-s-c {
+    border-color: rgba(147, 190, 255, 0.975);
+    background-color: var(--bg-mainn);
+    color: white;
+}
+
+/*------- END-SERVICES ----------*/
+/*--------------start- counter------------- */
+.counter {
+    background-image: linear-gradient(rgba(3, 88, 245, 0.675), rgba(0, 97, 253, 0.618)), url(../image/counters-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 8rem 0px;
+    color: #fff;
+}
+
+.shape-counter {
+    width: 80px;
+    height: 80px;
+    display: block;
+    border-radius: 50%;
+    border: solid rgba(221, 234, 255, 0.975) 10px;
+}
+
+/* .counter .numm::before {
+
+    content: "450";
+    height: 10px;
+    animation-name: numm;
+    animation-duration: 1s;
+    animation-iteration-count: 0.01s;
+}
+
+@keyframes numm {
+
+    0% {
+        content: "0";
+    }
+
+    20% {
+        content: "23";
+    }
+
+    40% {
+        content: "74";
+    }
+
+
+    60% {
+        content: "124";
+    }
+
+    80% {
+        content: "345";
+    }
+
+    100% {
+        content: "450";
+    }
+
+} */
+/*--------------end- counter------------- */
+
+
+/*---------START-instrctor---------*/
+.instrctor {
+    background-image: linear-gradient(rgba(32, 104, 247, 0.676),
+            rgba(0, 97, 253, 0.618)), url(../image/overlay-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.carousel-indicators {
+    position: static;
+
+}
+
+.carousel-indicators button {
+    width: 12px !important;
+    height: 12px !important;
+}
+
+/*--------- END-instrctor---------*/
+
+
+/*-- --------------START-PORTFOLIO---------------- -->*/
+.portf-w-like {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: solid var(--bg-mainn) 3px;
+}
+
+
+.portf-card:hover img {
+    transform: scale(1.3);
+}
+
+.portf-card img {
+    transition: all 1.1s ease;
+}
+
+.chan-fo-siz {
+    font-size: 12px;
+}
+
+/*-- --------------END-PORTFOLIO---------------- -->*/
+
+/*-- --------------START-BLOG---------------- -->*/
+/*blog*/
+
+.card-title a {
+    transition: all 1s;
+}
+
+.card-title:hover a {
+    color: var(--bg-mainn);
+}
+
+.card-footer img {
+    width: 35px;
+}
+
+.move {
+
+
+    position: absolute;
+    top: -17px;
+    width: 100%;
+    /*its important  to have apility to center the legend*/
+}
+
+.legend {
+    font-size: 11px;
+
+}
+
+/*-- --------------END-PORTFOLIO---------------- -->*/
+
+/*----------------contact-------------------*/
+
+.botto-form {
+    border: solid white 5px;
+    transition: all 0.5s;
+}
+
+.botto-form:hover {
+    border: solid rgba(2, 179, 255, 0.474) 5px !important;
+    background-color: rgba(23, 135, 254, 0.547);
+}
+
+textarea {
+    height: 150px !important;
+}
+
+.circ {
+
+    border: solid 3px rgb(13, 110, 253);
+    border-radius: 50%;
+    color: black;
+    transition: all 0.7s;
+}
+
+.circ:hover {
+    border: solid 3px rgba(126, 177, 254, 0.62);
+    background-color: rgb(13, 110, 253);
+}
+
+i {
+    transition: all 0.7;
+}
+
+.circ:hover i {
+    color: white !important;
+}
+
+/*-- --------------START-FOOTER---------------- -->*/
+/*footer*/
+footer {
+    background-color: rgba(7, 83, 198, 0.92);
+}
+
+.scroll-top {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/*-- --------------END-FOOTER---------------- -->*/
